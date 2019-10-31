@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  AWS CloudFormation template that installs Apache, PHP and deloys a web service returning the IP address of teh requesting client when index.php is visited.
+  AWS CloudFormation template that installs Apache, PHP and deloys a web service returning the IP address of the requesting client when index.php is visited.
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
