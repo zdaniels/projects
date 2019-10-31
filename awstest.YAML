@@ -57,11 +57,6 @@ Resources:
                     <html>
                   - |2
                       <head>
-                  - |2
-                        <title>AWS CloudFormation PHP Sample</title>
-                  - |2
-                        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-                  - |2
                       </head>
                   - |2
                       <body>
