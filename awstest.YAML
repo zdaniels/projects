@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  AWS CloudFormation template that installs Apache, PHP and deloys a web service returning the IP address of the requesting client when index.php is visited.
+  AWS CloudFormation template that installs Apache, PHP and deloys a web service returning the IP address of the requesting client.
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
@@ -167,7 +167,7 @@ Resources:
           CidrIp: !Ref SSHLocation
 Outputs:
   WebsiteURL:
-    Description: URL for newly created LAMP stack
+    Description: URL for newly deployed web service
     Value: !Join 
       - ''
       - - 'http://'
